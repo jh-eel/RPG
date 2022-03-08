@@ -490,6 +490,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2012917585700316199}
   m_HandleRect: {fileID: 224153372062608982}
   m_Direction: 2
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
   m_Value: 0
   m_Size: 0.94102234
@@ -497,6 +498,10 @@ MonoBehaviour:
   m_Value: 1
   m_Size: 0.942579
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+  m_Value: 1
+  m_Size: 0.942579
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -954,6 +959,7 @@ RectTransform:
   m_Children:
   - {fileID: 1301056391861448082}
   - {fileID: 5719733560908919051}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
   - {fileID: 2285821848013246240}
   - {fileID: 6587892515734197142}
@@ -963,6 +969,8 @@ RectTransform:
   - {fileID: 5933365453708548334}
 =======
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1177,11 +1185,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
   m_AnchoredPosition: {x: -0.000061035156, y: -568.7423}
 =======
   m_AnchoredPosition: {x: -0.000060973212, y: -644.8002}
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+  m_AnchoredPosition: {x: -0.000060973212, y: -644.8002}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4131155162176750999
@@ -5967,12 +5979,42 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
     - target: {fileID: 5874904286019009008, guid: 97b744fd9f0bae5499071593da1b1b1f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6418854915793512697, guid: 97b744fd9f0bae5499071593da1b1b1f,
+=======
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Helm
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aa4b2d88fc840d646820e294830f6dde,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7b0f80c22b52fa4d9a26e6506a58671, type: 3}
+--- !u!224 &151797088873163005 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+    type: 3}
+  m_PrefabInstance: {fileID: 3489096587206894223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3510965329757155787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 224109767047476660}
+    m_Modifications:
+    - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6077,12 +6119,37 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
     - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e1855ae875aa6424d81fb5c5c1d623a5,
         type: 3}
+=======
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b47431e0d918eeb4eb1dc79bd8e8fb50,
+        type: 3}
+    - target: {fileID: 5391756194287133340, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: equipLocation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e1855ae875aa6424d81fb5c5c1d623a5,
+        type: 3}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b744fd9f0bae5499071593da1b1b1f, type: 3}
 --- !u!224 &2285821848013246240 stripped
@@ -6477,6 +6544,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 224109767047476660}
     m_Modifications:
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6498,6 +6566,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 607013805134171947, guid: 3c875014a72cba948808efb87d92e2d9,
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -6621,15 +6691,35 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 68d5c73fd6d8d094ea9f0150f27aaf68,
         type: 3}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+      propertyPath: m_LocalScale.z
+      value: 0.99999326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Boots
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 68d5c73fd6d8d094ea9f0150f27aaf68,
+        type: 3}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 5391756194287133340, guid: c7b0f80c22b52fa4d9a26e6506a58671,
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 1582332754357518850, guid: 3c875014a72cba948808efb87d92e2d9,
 =======
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Sprite
@@ -6821,6 +6911,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 224450496120726456}
     m_Modifications:
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6847,6 +6938,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2796176589743507343, guid: 3c875014a72cba948808efb87d92e2d9,
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -6965,15 +7058,35 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6d6e2da30734bb74cb2de456bb56b0fb,
         type: 3}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Trousers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d6e2da30734bb74cb2de456bb56b0fb,
+        type: 3}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 5391756194287133340, guid: c7b0f80c22b52fa4d9a26e6506a58671,
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 3894763481603515010, guid: 3c875014a72cba948808efb87d92e2d9,
 =======
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Sprite
@@ -7578,6 +7691,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gloves
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Gloves
+      objectReference: {fileID: 0}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Sprite
@@ -7590,9 +7711,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 6267736121211759429, guid: 3c875014a72cba948808efb87d92e2d9,
 =======
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Sprite
@@ -8090,6 +8214,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224450496120726456}
     m_Modifications:
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
 <<<<<<< HEAD:RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 181396749774149571, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
@@ -8115,6 +8240,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Pivot.x
@@ -8233,6 +8360,22 @@ PrefabInstance:
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Neck
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f5ea285fc81c194eb780e1f2908f0ec,
+        type: 3}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
@@ -8402,6 +8545,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224450496120726456}
     m_Modifications:
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Pivot.x
@@ -8417,6 +8561,8 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -8533,6 +8679,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fde4b0002c7871a4ba217922cda1e2ef,
         type: 3}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fde4b0002c7871a4ba217922cda1e2ef,
+        type: 3}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 5391756194287133340, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: equipLocation
@@ -8559,6 +8722,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224109767047476660}
     m_Modifications:
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_Pivot.x
@@ -8574,6 +8738,8 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 3634554955836656242, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -8690,6 +8856,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 34e63a70424c1ee4e80ce4ff0757859c,
         type: 3}
+<<<<<<< HEAD:RPG Project/Assets/Game/UI/Inventory Canvas.prefab
+=======
+      propertyPath: m_LocalScale.z
+      value: 0.99999326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561121645966637724, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Name
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528661190285955132, guid: c7b0f80c22b52fa4d9a26e6506a58671,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 34e63a70424c1ee4e80ce4ff0757859c,
+        type: 3}
+>>>>>>> parent of 3d8f2f3 (1 Atomic Design):RPG Project/Assets/Game/UI/UI Canvas.prefab
     - target: {fileID: 5391756194287133340, guid: c7b0f80c22b52fa4d9a26e6506a58671,
         type: 3}
       propertyPath: equipLocation
